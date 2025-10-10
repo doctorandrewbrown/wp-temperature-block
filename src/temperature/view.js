@@ -23,3 +23,5 @@
 /* eslint-disable no-console */
 console.log( 'Hello World! (from create-block-temperature block)' );
 /* eslint-enable no-console */
+
+alert("hellooooo")
