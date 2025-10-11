@@ -1,5 +1,5 @@
 # Wordpress Centigrade to Fahrenheit Temperature Conversion Block
-- To create block (substitute ```<block-name>``` )
+- To create block (substitute ```<block-name>``` ). DO NOT run this command twice or you will re-initialize and lose your work.
 ```bash
 npx @wordpress/create-block@latest <block-name> --variant dynamic --target-dir .
 ```
