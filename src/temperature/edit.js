@@ -32,7 +32,7 @@ import './editor.scss';
 export default function Edit() {
 	return (
 		<p { ...useBlockProps() }>
-			{ __( 'Temperature – hello from the editor!', 'temperature' ) }
+			{ __( 'Centigrade to fahrenheit conversion block', 'temperature' ) }
 		</p>
 	);
 }

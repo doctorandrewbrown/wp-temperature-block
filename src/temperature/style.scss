@@ -10,3 +10,13 @@
 	color: #fff;
 	padding: 2px;
 }
+.temp-form{
+	background-color: yellow;
+	padding: 20px;
+	color: #f10909;
+	// nested because of sass
+	input{
+		background-color: aqua;
+		border: none;
+	}
+}
