@@ -1,7 +1,7 @@
 // get all instances of the block element (as an array) to loop through and apply function to each
 document.querySelectorAll(".block-wrapper").forEach(convertTemp)
 
-// "block" is not a key-word it is a variable representing the whole .block-wrapper element
+// "block" is not a key-word it is a variable representing the whole .block-wrapper element automatically assigned to each item
 function convertTemp(block){
     block.querySelector(".celsius").addEventListener("input", ()=>{
 
