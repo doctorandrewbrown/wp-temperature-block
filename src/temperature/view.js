@@ -1,9 +1,12 @@
-
-document.getElementById("celsius").addEventListener("input", convertTemp);
-const result = document.getElementById("result");
-function convertTemp(){
+// get the user input centigrade temperature 
+document.getElementById("celsius").addEventListener("input", ()=>{
+    // do conversion to fahrenheit
     const celsius = document.getElementById("celsius").value;
     const fahrenheit = celsius*1.8+32;
-    result.innerText = fahrenheit;
-}
+    // generate string to show fahrenheit result in the span element
+    result.innerText = `  =  ${fahrenheit.toFixed(2)} degrees F`;
+});
+// get #result element in variable
+const result = document.getElementById("result");
+
   
