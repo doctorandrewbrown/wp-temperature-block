@@ -5,7 +5,7 @@
 	"version": "0.1.0",
 	"title": "Temperature",
 	"category": "widgets",
-	"icon": "smiley",
+	"icon": "palmtree",
 	"description": "Example block scaffolded with Create Block tool.",
 	"example": {},
 	"supports": {
