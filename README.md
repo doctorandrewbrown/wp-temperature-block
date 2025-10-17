@@ -1,4 +1,6 @@
 # Wordpress Centigrade to Fahrenheit Temperature Conversion Block Plugin
+- Make a directory to hold plugin in ```wp-content/plugins```
+- Be carefull with naming as maybe an issue with hyphenated plugin names(?)
 - To create block (substitute ```<block-name>``` ). DO NOT run this command twice or you will re-initialize and lose your work.
 ```bash
 npx @wordpress/create-block@latest <block-name> --variant dynamic --target-dir .
